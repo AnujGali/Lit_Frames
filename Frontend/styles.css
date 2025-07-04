@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Makes the gradient cover the full viewport height */
+    background: linear-gradient(45deg, rgba(0, 21, 255, 0.873), purple);
+    margin: 0;
+    padding: 0;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  } 
+
+  h1, h2 {
+    margin: 10px 0;
+  } 
+
+  input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%; /* Adjust width to make the elements visually consistent */
+    max-width: 400px; /* Prevents elements from being too wide */
+    display: block; /* Ensures each element is on its own line */
+  }
+  
+  button {
+    background-color: rgba(128, 0, 102, 0.664);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: rgba(128, 0, 102, 0.942);
+  } 
+
+  input {
+    border-radius: 5px;
+  } 
+
+  
